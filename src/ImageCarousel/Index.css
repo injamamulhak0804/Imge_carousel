@@ -1,0 +1,41 @@
+.container-img{
+    width: 650px !important;
+    height: 500px !important;
+    overflow: hidden !important;
+
+}
+body{
+    width: 100vw !important;
+    height: 100vh !important;
+    display: grid;
+    place-content: center;
+}
+.each-img-div{
+    position: relative;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+    transition: 1s;
+}
+.arrowleft{
+    top: 50%;
+    left: 5px;
+    z-index: 4;
+    position: absolute;
+    color: rgb(238, 237, 243);
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.arrowright{
+    top: 50%;
+    position: absolute;
+    right: 0;
+    color: rgb(236, 235, 247);
+    font-size: 2rem;
+    right: 5px;
+    cursor: pointer;
+}
